@@ -1,0 +1,38 @@
+{
+    "name": "task-custom-pricing/task-custom-pricing",
+    "description": "Customer-specific product prices for Shopware 6.7, shown in the storefront and charged in the cart.",
+    "type": "shopware-platform-plugin",
+    "version": "1.0.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yusuf Abo",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "shopware/core": "~6.7.0",
+        "shopware/storefront": "~6.7.0"
+    },
+    "extra": {
+        "shopware-plugin-class": "TaskCustomPricing\\TaskCustomPricing",
+        "label": {
+            "de-DE": "Kundenspezifische Preise",
+            "en-GB": "Customer-specific prices"
+        },
+        "description": {
+            "de-DE": "Individuelle Produktpreise pro Kunde, sichtbar in der Storefront und gültig im Warenkorb.",
+            "en-GB": "Customer-specific product prices, shown in the storefront and charged in the cart."
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "TaskCustomPricing\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "TaskCustomPricing\\Tests\\": "tests/"
+        }
+    }
+}

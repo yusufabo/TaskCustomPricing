@@ -1,0 +1,12 @@
+[
+    {
+        "customer_email": "john@example.com",
+        "product_number": "SW10001",
+        "custom_price": 10
+    },
+    {
+        "customer_email": "ahmed@example.com",
+        "product_number": "SW10000",
+        "custom_price": 20.5
+    }
+]
